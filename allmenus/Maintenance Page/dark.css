@@ -1,0 +1,47 @@
+@media (prefers-color-scheme: dark), (prefers-dark-interface) { /* the latter is required for Safari/Webkit? https://stackoverflow.com/a/58163051/2533433 */
+
+  :root {
+    --iod-light-background: rgb(51, 55, 58);
+    --iod-medium-background: rgb(38, 42, 43);
+    --iod-dark-background: #0D1117;
+  }
+
+  body { background-color: var(--iod-dark-background); color:rgb(194, 228, 255); }
+  #content { background-color: #161B22; }
+
+  h2, h3, h4, h5 { color:#00a5ff; }
+
+  code, .code, pre { background-color:var(--iod-light-background); }
+
+
+  table { border-color: rgb(77, 83, 86); background-color: var(--iod-medium-background); } /* currently unused */
+
+  th { background-color:var(--iod-medium-background); }
+  td { background-color:var(--iod-light-background); }
+
+  img { opacity: .75; transition: opacity .5s ease-in-out; }
+  img:hover { opacity: 1; }
+
+  a { color: rgb(26, 174, 255) !important; }
+  a:hover { text-decoration-color: currentcolor; background-color: rgb(34, 36, 38); }
+
+
+  /* fdlist */
+  input, textarea, select, button { border-color: #736b5e; color: #e8e6e3; background-color: #181a1b; }
+  #intro { background-color:var(--iod-medium-background); }
+  #intro, .uncoloredlink { color:snow; }
+  .appdetailinner, .appiconbig { background-color:#161822; }
+  .appdetailinner .appdetailrow:first-child { background-color:var(--iod-medium-background); }
+  .minor-details { color:snow; }
+  .pagercell a img { filter: brightness(0) invert(90%); }
+
+
+  /* fddetails */
+  #appdetails { background-color:var(--iod-medium-background); }
+  #appdetails .screenshots, #footer a, #keydata, .package { background-color:var(--iod-light-background); }
+  .keydatatable td { color:snow; }
+  #appdetails .whatsnew { background-color:var(--iod-light-background); }
+  .antifeatures { background-color:rgba(240,82,45,.25); }
+  .libdetails { color: #aaaaaa; }
+
+}

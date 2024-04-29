@@ -1,0 +1,16 @@
+<a class="button" href="https://createssh.net/ssh-server-7days/singapore">CreateSSH Singapore</a>
+
+  <a class="button" href="https://createssh.net/ssh-udp">CreateSSH 3DAYS PREMIUM</a>
+
+  <a class="buttohot" href="https://aixxyssh.com/?q=ssh-servers&filter=extra">AixxySSH Singapore</a>
+
+  <a class="buttohot" href="https://sshocean.com/sshws/singapore">SSHOcean pilih yang CTB!</a>
+
+  <a class="buttohot" href="https://microssh.com/create-account?type=asia">MicroSSH Asia(sering down)</a>
+ 
+  <a class="button" href="https://projectssh.com/create-account?type=asia">ProjectSSH Asia (sering down)</a>
+
+  <a class="button" href="https://volantssh.com/create-account?type=asia">VolantSHH Asia (sering down)</a>
+ 
+  
+  <a class="button" href="https://www.fastssh.com/page/ssh-over-websocket-servers">FastSSH UDPGW support Video Call(biasanya slow banget)</a>

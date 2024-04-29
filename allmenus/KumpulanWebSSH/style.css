@@ -1,0 +1,299 @@
+    /* RisunTuru-CSS */
+
+    body, h1, h2, h3, p, ul, li {
+      margin: 0;
+      padding: 0;
+      color: white;
+    }
+
+    .clicked {
+  animation: clickAnimation 0.3s ease-in-out forwards;
+    }
+
+        #popup-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
+
+     /* #popup-overlay.show {
+      display: flex;
+      opacity: 1;
+    } */
+
+    #popup-content {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    #countdown-timer {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    * { 
+      box-sizing: border-box;
+      outline: none;
+      border: none;
+      text-decoration: none;
+    }
+  
+
+    #loading-animation {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.5); /* Ubah nilai RGBA sesuai kebutuhan Anda */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }  
+     
+    @media only screen and (max-width: 600px) {
+      /* Gaya CSS untuk layar dengan lebar maksimum 600px */
+      /* Misalnya, mengubah lebar elemen atau mengatur tata letak ulang */
+    }
+
+    @media only screen and (max-width: 768px) {
+      /* Gaya CSS untuk layar dengan lebar maksimum 768px */
+      /* Misalnya, mengubah ukuran font atau mengatur tata letak ulang */
+    } 
+ 
+    /* navbar space-between*/
+    .navbar {
+      display: flex;
+      height: 5rem;
+      justify-content: center;
+      align-items: center;
+      padding: 1.4rem 5%;
+      background-color: rgba(68, 68, 68, 0.3);
+      border-bottom: 3px solid rgba(34, 34, 34, 0.5);
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 9999;
+      box-shadow: 0 0px 20px #252525;
+    }
+
+    .logo span {
+      color: rgb(255, 143, 16);
+      transition: 0.2s ease-in-out;
+    }
+
+    .logo {
+    display: flex;
+    transition: 0.2s ease-in-out;
+    animation: idle 3s ease-in-out infinite alternate;
+    }
+  
+    footer { 
+     position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgba(51, 51, 51, 0.7); /* Mengatur transparansi menjadi 70% */
+      color: #fff;
+      text-align: center;
+      padding: 1.4rem 5%;
+      padding: 5px 0;
+      z-index: 9999;
+      box-shadow: 0 0px 20px #252525;
+    }
+ 
+    .loading-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 9999;
+      display: none;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .loading-spinner {
+      border: 4px solid #f3f3f3;
+      border-top: 4px solid #3498db;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 2s linear infinite;
+    } 
+
+    body {  
+      background-image: url('');
+      background-size: cover;
+      font-family: Arial, italic;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+       transition: background-color 1s ease; /* Animasi pergantian warna selama 1 detik dengan efek 'ease' */
+    }
+
+    canvas {
+      margin: 0;
+      padding: 0;
+      /* Set properti position menjadi absolute untuk mengatur posisi kanvas */
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      /* Set properti z-index menjadi -1 untuk mengatur kanvas di belakang konten */
+      z-index: -1;
+    }
+
+     .buttohot {
+      transition: transform 0.3s ease-in-out;
+    } 
+
+    .buttohot:hover {
+      transform: scale(1.1);
+    } 
+     .buttohotmini {
+      transition: transform 0.3s ease-in-out;
+    } 
+
+    .buttohotmini:hover {
+      transform: scale(1.1);
+    } 
+
+    .button-back {
+      background-color: #119014;
+      color: #fff;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 8px;
+      margin: 4px 4px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .button-back:hover {
+      background-color: #0c6c0c;
+    } 
+ 
+    @keyframes changeColor {
+      0% {
+        background-color: #4b7c0c;
+      }
+      10% {
+        background-color: #292929;
+      }
+      20% {
+        background-color: #000000;
+      }
+      30% {
+        background-color: #1a1a1a;
+      }
+      40% {
+        background-color: #4b7c0c;
+      }
+      50% {
+        background-color: #343434;
+      }
+      60% {
+        background-color: #2c3e50;
+      }
+      70% {
+        background-color: #22313f;
+      }
+      80% {
+        background-color: #5e6f97;
+      }
+      90% {
+        background-color: #2c3e50;
+      }
+      100% {
+        background-color: #4b7c0c;
+      }
+    }
+
+
+    .buttohot {
+      padding: 10px 20px;
+      color: #fff;
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+      width: 300px;
+      height: 40px;
+      text-align: center;
+      border-radius: 5px;
+      animation: changeColor 3s infinite; /* Menggunakan animasi dengan durasi 5 detik dan berulang secara terus-menerus */
+    }
+
+    .buttohotmini {
+      padding: 8px 15px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      text-align: right;
+      border-radius: 5px;
+      animation: changeColor 1s infinite; /* Menggunakan animasi dengan durasi 5 detik dan berulang secara terus-menerus */
+    }
+
+ 
+    .transparent-box {
+        background-color: #062d2e;
+        border: 1px solid black;
+        display: inline-block;
+        padding: 1px;
+        color: white;
+        margin-bottom: 1px;
+        position: relative;
+    } 
+
+        @keyframes slideInUp {
+      0% {
+        transform: translateY(100%);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+
+     @keyframes popup {
+      0% {
+        transform: scale(0); 
+      }
+
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    @keyframes idle {
+      0% {
+        transform: rotate(5deg);
+      }
+
+      100% {
+        transform: rotate(-5deg);
+      }
+    } 
